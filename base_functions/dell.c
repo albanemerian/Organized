@@ -5,7 +5,7 @@
 ** dell
 */
 
-#include "libshell/shell.h"
+#include "../libshell/shell.h"
 
 int error_type(linked_list_t **list, linked_list_t *current)
 {

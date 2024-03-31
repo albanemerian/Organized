@@ -4,7 +4,7 @@
 ** File description:
 ** add
 */
-#include "libshell/shell.h"
+#include "../libshell/shell.h"
 
 int error_gestion(char **args)
 {

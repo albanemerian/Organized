@@ -5,8 +5,8 @@
 ** reverse_sort
 */
 
-#include "libshell/shell.h"
-#include "include/organize.h"
+#include "../libshell/shell.h"
+#include "../include/organize.h"
 
 int node_counter(void *data, char **args)
 {

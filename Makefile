@@ -20,23 +20,23 @@ LIBS	=	-L./ -lmy -L./libshell/ -lshell
 TEST_LIBS	=	-L./ -lmy
 
 SRC		=   main.c	\
-			add.c	\
-			dell.c	\
-			disp.c	\
-			sort.c	\
-			sort_name.c	\
-			sort_type.c	\
-			reverse_sort.c	\
-			sort_check.c
+			base_functions/add.c	\
+			base_functions/dell.c	\
+			base_functions/disp.c	\
+			sort/sort.c	\
+			sort/sort_name.c	\
+			sort/sort_type.c	\
+			sort/reverse_sort.c	\
+			sort/sort_check.c
 
-SRCTEST	=	add.c	\
-			dell.c	\
-			disp.c	\
-			sort.c	\
-			sort_name.c	\
-			sort_type.c	\
-			reverse_sort.c	\
-			sort_check.c
+SRCTEST	=	base_functions/add.c	\
+			base_functions/dell.c	\
+			base_functions/disp.c	\
+			sort/sort.c	\
+			sort/sort_name.c	\
+			sort/sort_type.c	\
+			sort/reverse_sort.c	\
+			sort/sort_check.c
 
 OBJ		=	$(SRC:.c=.o)
 

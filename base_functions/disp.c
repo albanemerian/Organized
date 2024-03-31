@@ -5,7 +5,7 @@
 ** disp
 */
 
-#include "libshell/shell.h"
+#include "../libshell/shell.h"
 
 int error_ling(char **args)
 {

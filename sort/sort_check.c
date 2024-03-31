@@ -5,8 +5,8 @@
 ** sort_check
 */
 
-#include "libshell/shell.h"
-#include "include/organize.h"
+#include "../libshell/shell.h"
+#include "../include/organize.h"
 
 int checked_sorting(void *data, char **args)
 {

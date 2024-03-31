@@ -5,8 +5,8 @@
 ** sort
 */
 
-#include "libshell/shell.h"
-#include "include/organize.h"
+#include "../libshell/shell.h"
+#include "../include/organize.h"
 
 void bubble_sort(linked_list_t *current, int nb_node, int i)
 {

@@ -5,8 +5,8 @@
 ** sort_name
 */
 
-#include "libshell/shell.h"
-#include "include/organize.h"
+#include "../libshell/shell.h"
+#include "../include/organize.h"
 #include <string.h>
 
 void bubble_name_reverse(linked_list_t *current, int nb_node, int i)
